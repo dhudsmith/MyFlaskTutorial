@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -b 0.0.0.0:$PORT -k gevent application_lulu:application_lulu
+web: gunicorn -w 4 -b 0.0.0.0:$PORT -k gevent application_lulu:index_lulu
