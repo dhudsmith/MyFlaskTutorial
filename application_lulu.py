@@ -61,4 +61,4 @@ def next_lulu2():
 
 
 if __name__ == '__main__':
-    app_lulu.run(port=33507, debug=False)
+    app_lulu.run()
