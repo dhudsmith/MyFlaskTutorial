@@ -11,7 +11,7 @@ app_lulu.questions['Do you like cupcakes?']=('yes', 'no', 'maybe')
 app_lulu.nquestions = len(app_lulu.questions)
 
 @app_lulu.route('/index_lulu', methods = ['GET','POST'])
-def index_lulu():
+def index_lulu(environ, start_response):
     nquestions = 5
 
     # Handle get requests
